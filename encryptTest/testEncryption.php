@@ -15,7 +15,7 @@ foreach ($algorithms as $algo)
     echo "Password: ".$password."\n";
     echo "Cipher text: ".$cipherText."\n";
 
-    $decryptedText=openssl_decrypt($cipherText,"aes",$password);
+    $decryptedText=openssl_decrypt($cipherText,$algo,$password);
     echo "Decrypted text: ".$decryptedText."\n\n";
 
     }
