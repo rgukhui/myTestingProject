@@ -7,7 +7,7 @@ $data="hello world!";
 echo "Data: ".$data."\n";
 
 $key="myKey";
-echo "Key: ".$key."\n";
+echo "Key: ".$key."\n\n";
 
 
 foreach ($algorithms as $algo)
@@ -16,7 +16,7 @@ foreach ($algorithms as $algo)
     echo "Hash (".$algo."): ".$hash."\n";
 
     $hmacHash=hash_hmac($algo,$data,$key);
-    echo "HMAC Hash (".$algo."): ".$hmacHash."\n";
+    echo "HMAC Hash (".$algo."): ".$hmacHash."\n\n";
 
     }
 ?>
