@@ -1,4 +1,6 @@
 <?php
+header("Content-type: text/plain");
+
 $algorithms=hash_algos();
 
 $data="hello world!";
