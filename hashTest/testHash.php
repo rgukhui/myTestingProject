@@ -16,7 +16,7 @@ foreach ($algorithms as $algo)
     echo "Hash (".$algo."): ".$hash."\n";
 
     $hmacHash=hash_hmac($algo,$data,$key);
-    echo "Hash (".$algo."): ".$hmacHash."\n";
+    echo "HMAC Hash (".$algo."): ".$hmacHash."\n";
 
     }
 ?>
