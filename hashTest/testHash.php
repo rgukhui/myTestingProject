@@ -1,9 +1,6 @@
 <?php
 $algorithms=hash_algos();
 
-foreach ($algorithms as $algo)
-    echo $algo."\n";
-
 $data="hello world!";
 echo "Data: ".$data."\n";
 
