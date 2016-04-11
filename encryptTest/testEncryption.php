@@ -1,4 +1,6 @@
 <?php
+header("Content-type: text/plain");
+
 $data="hello world!";
 $method="aes";
 $password="my password";
