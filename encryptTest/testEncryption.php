@@ -4,7 +4,7 @@ header("Content-type: text/plain");
 $algorithms=openssl_get_cipher_methods();
 
 $data="hello world!";
-$method="aes";
+
 $password="my password";
 
 foreach ($algorithms as $algo)
